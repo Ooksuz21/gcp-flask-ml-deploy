@@ -1,4 +1,4 @@
 steps:
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['builds', 'submit', '.']
-logs_bucket: 'gs://kanzii'
+logs_bucket: 'gs://kans'
